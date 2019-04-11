@@ -2,7 +2,7 @@
 Author: Jake Kirsten
 
 == Intro
-
+//please more detail.
 We are going to be attacking a database with an SQL injection to retrieve passwords, and root access.
 
 == Prerequisites
@@ -23,6 +23,7 @@ sudo ifconfig eth0 192.168.2.50 netmask 255.255.255.0
 ```
 sudo ifconfig 192.168.2.10 netmask 255.255.255.0
 ```
+// combine the screenshots and not spread them acorss like 100 pages/.
 +
 image::KaliIP.png[]
 . Verify metasploitable 2 is running by going to 192.168.2.50 with firefox in Kali:
@@ -80,3 +81,4 @@ Of course we want to store them into a temp file to break the hash! Hit Y on bot
 This should be the result:
 +
 image::hashedpasswords.png[]
+// last image doesnt pop up.
